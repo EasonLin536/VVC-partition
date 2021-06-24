@@ -6,8 +6,8 @@ from early_terminate import *
 from gradient_select import *
 from choose_partition import *
 
-CTU_SIZE = 32
-MAX_DEPTH = 5
+CTU_SIZE = 128
+MAX_DEPTH = 4
 
 # Read image and crop to size
 def read_image(img_fname):

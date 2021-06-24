@@ -2,7 +2,7 @@ import numpy as np
 from scipy.ndimage import filters
 
 TH_2 = 2.7
-TH_3 = 50000
+TH_3 = 40000
 
 def gradient_select(luma_img, CU):
 
